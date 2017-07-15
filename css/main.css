@@ -1,0 +1,20 @@
+
+header {
+  background: #52B2E4;
+}
+
+header .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  header .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+}
+#portfolio .portfolio-item h3 {
+  color: #6c6c6c;
+  text-transform: capitalize;
+}
