@@ -23,17 +23,5 @@ youtubeVidIdsSortedByDate.forEach(video => {
 
   var iframe = document.createElement('iframe')
   iframe.setAttribute('class', 'embed-responsive-item')
-  iframe.setAttribute('src', 'embed-responsive-item')
+  iframe.setAttribute('src', iframeSrc)
 })
-
-/*
-<div class="portfolio-item">
-    <h3 style="
-  color: #6c6c6c;
-  text-transform: capitalize;
-">This Week In Tech 622: Running for Human</h3>
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/IJp_uFA_-tU?rel=0"></iframe>
-                  </div>
-                </div>
- */
