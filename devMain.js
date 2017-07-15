@@ -1,10 +1,10 @@
 var youtubeVidIdsSortedByDate = [
-  { videoId: 'IJp_uFA_-tU', videoTitle: '',
-  { videoId: 'reSb_co3PVo', videoTitle: '',
-  { videoId: 'ZB5dGf0UQT8', videoTitle: '',
-  { videoId: '82lzQ6pdZCs', videoTitle: '',
-  { videoId: 'XyCdvoWLPYc', videoTitle: '',
-  { videoId: '4IMS2oO0NAE', videoTitle: ''
+  { videoId: 'IJp_uFA_-tU', videoTitle: ''},
+  { videoId: 'reSb_co3PVo', videoTitle: ''},
+  { videoId: 'ZB5dGf0UQT8', videoTitle: ''},
+  { videoId: '82lzQ6pdZCs', videoTitle: ''},
+  { videoId: 'XyCdvoWLPYc', videoTitle: ''},
+  { videoId: '4IMS2oO0NAE', videoTitle: ''}
 ]
 
 var row = document.querySelector('#portfolio .container .row')
