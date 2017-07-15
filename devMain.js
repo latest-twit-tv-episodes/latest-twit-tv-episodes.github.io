@@ -24,4 +24,12 @@ youtubeVidIdsSortedByDate.forEach(video => {
   var iframe = document.createElement('iframe')
   iframe.setAttribute('class', 'embed-responsive-item')
   iframe.setAttribute('src', iframeSrc)
+
+  newPortfolioItem.appendChild(videoTitle)
+
+  embedContainer.appendChild(iframe)
+
+  newPortfolioItem.appendChild(embedContainer)
+
+  row.appendChild(newPortfolioItem)
 })
