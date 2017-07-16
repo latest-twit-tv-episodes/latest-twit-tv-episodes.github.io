@@ -22,8 +22,8 @@ youtubeVidIdsSortedByDate.forEach(video => {
   var iframeSrc = '//www.youtube.com/embed/'+ video.videoId +'?rel=0'
 
   var iframe = document.createElement('iframe')
-  iframe.setAttribute('class', 'embed-responsive-item')
-  iframe.setAttribute('src', iframeSrc)
+  iframe.setAttribute('class', 'embed-responsive-item lazyload')
+  iframe.setAttribute('data-src', iframeSrc)
 
   newPortfolioItem.appendChild(videoTitle)
 
