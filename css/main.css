@@ -17,6 +17,7 @@ header .container {
 
 #portfolio .portfolio-item {
   margin-bottom: 100px;
+  max-width: 1100px;
 }
 
 #portfolio .portfolio-item h3 {
